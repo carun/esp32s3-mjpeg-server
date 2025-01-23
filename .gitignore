@@ -1,0 +1,46 @@
+# Build directories
+/build/
+**/build/
+
+# ESP-IDF dependencies
+/components/.idf/
+**/components/.idf/
+
+# Project configuration
+sdkconfig
+sdkconfig.old
+
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+Makefile
+*.cmake
+
+# Python environment files
+*.pyc
+*.pyo
+*.pyd
+__pycache__
+
+# ESP32 toolchain files
+.espressif/
+
+# IDE specific files (e.g., Visual Studio Code, Eclipse)
+.vscode/
+.idea/
+*.user
+*.workspace
+*.suo
+*.sln
+
+# ESP32 flash files
+*.bin
+*.elf
+*.map
+
+# Generated documentation
+/docs/
+
+# ESP-IDF logs
+*.log
+
