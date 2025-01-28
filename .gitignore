@@ -44,3 +44,4 @@ __pycache__
 # ESP-IDF logs
 *.log
 
+managed_components
